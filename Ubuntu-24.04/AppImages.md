@@ -18,9 +18,9 @@ sudo apt install libfuse2t64
 
 ## AppImages App Icons
 
-|FreeCAD 0.22.0dev|UltiMaker-Cura|LaserWeb4|
-|:---:|:---:|:---:|
-|![FreeCAD 0.22.0dev](./Images/FreeCAD_0.22.png)|![Cura](./Images/Cura.png)|![LaserWeb4](./Images/LaserWeb4.png)|
+|FreeCAD 0.22.0dev|UltiMaker-Cura|LaserWeb4|Kdenlive|
+|:---:|:---:|:---:|:---:|
+|![FreeCAD 0.22.0dev](./Images/FreeCAD_0.22.png)|![Cura](./Images/Cura.png)|![LaserWeb4](./Images/LaserWeb4.png)|![kdenlive](./Images/kdenlive_24.png)|
 
 Download *.png to:
 
@@ -72,6 +72,32 @@ Categories=Categories=Graphics;2DGraphics;3DGraphics;RasterGraphics;GTK;
 Terminal=false
 StartupNotify=true
 GenericName[da_DK]=CAD-program
+```
+
+* Save and Exit nano
+  * To Save: [Ctrl]+[o]
+  * To Exit: [Ctrl]+[w]
+
+### Kdenlive ver.: 24.08.0
+
+```code
+nano ~/.local/share/applications/kdenlive-24.08.0-x86_64.desktop
+```
+
+Content of file:
+
+```text
+[Desktop Entry]
+Type=Application
+Name=kdenlive-24.08.0-x86_64
+Comment=kdenlive-24.08.0-x86_64
+Categories=Graphics;Science;Engineering;
+Icon=kdenlive_24.png
+Exec=kdenlive-24.08.0-x86_64.AppImage
+Terminal=false
+Name[da_DK]=kdenlive-24.08.0-x86_64
+StartupNotify=true
+
 ```
 
 * Save and Exit nano
