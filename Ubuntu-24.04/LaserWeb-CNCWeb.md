@@ -121,8 +121,17 @@ You should be able to launch LaserWeb fro the terminal then by entering:
 
 You are ok to close the terminal if everything worked.
 
-## Add a desktop file 
+## Add a desktop file
 
+### Add App Icons
+
+|LaserWeb4|
+|:---:|
+|![LaserWeb4](./Images/LaserWeb4.png)|
+
+```code
+mv ~/Hentet/LaserWeb4.png ~/.local/share/icons
+```
 sudo nano ~/.local/share/applications/LaserWeb4.desktop
 
 ```txt

@@ -131,6 +131,10 @@ sudo apt install libfuse2t64
 
 ### Add AppImages Icons
 
+|FreeCAD 0.22.0dev|UltiMaker-Cura|LaserWeb4|
+|:---:|:---:|:---:|
+|![FreeCAD 0.22.0dev](./Images/FreeCAD_0.22.png)|![Cura](./Images/Cura.png)|![LaserWeb4](./Images/LaserWeb4.png)|
+
 ```code
 mv ~/Hentet/*.png ~/.local/share/icons
 ```
