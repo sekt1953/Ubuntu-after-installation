@@ -16,7 +16,14 @@ PATH="$PATH:$HOME/bin"
 sudo apt install libfuse2t64
 ```
 
-## AppImages App Icons
+## AppImages App
+
+* Download link:
+  * [FreeCAD 0.22.0dev](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  * [UltiMaker-Cura](https://ultimaker.com/software/ultimaker-cura/#downloads)
+  * [Kdenlive](https://kdenlive.org/en/download/)
+
+## AppImages Icons
 
 |FreeCAD 0.22.0dev|UltiMaker-Cura|LaserWeb4|Kdenlive|
 |:---:|:---:|:---:|:---:|
