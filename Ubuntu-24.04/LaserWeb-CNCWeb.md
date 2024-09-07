@@ -123,16 +123,9 @@ You are ok to close the terminal if everything worked.
 
 ## Add a desktop file
 
-### Add App Icons
-
-|LaserWeb4|
-|:---:|
-|![LaserWeb4](./Images/LaserWeb4.png)|
-
 ```code
-mv ~/Hentet/LaserWeb4.png ~/.local/share/icons
-```
 sudo nano ~/.local/share/applications/LaserWeb4.desktop
+```
 
 ```txt
 [Desktop Entry]
@@ -144,3 +137,14 @@ Icon=LaserWeb4.png
 Categories=Graphics;
 ```
 
+### Add App Icons
+
+|LaserWeb4|
+|:---:|
+|![LaserWeb4](./Images/LaserWeb4.png)|
+
+Download LaserWeb4.png to:
+
+```txt
+ ~/.local/share/icons
+```
