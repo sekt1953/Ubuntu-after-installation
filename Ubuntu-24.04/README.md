@@ -84,6 +84,16 @@ sudo smbpasswd -a <username>
 sudo service smbd restart
 ```
 
+## LaserWeb/CNCWeb:
+
+```txt
+https://github.com/LaserWeb/LaserWeb4/wiki
+```
+
+```txt
+https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux
+```
+
 ## AppImage
 
 ### Where to place my AppImages files
@@ -112,12 +122,58 @@ mv ~/Hentet/*.png ~/.local/share/icons
 
 #### FreeCAD 0.22.0dev-Linux-x86_64
 
-```txt
-
+```code
+nano ~/.local/share/applications/FreeCAD_0.22.0dev-Linux-x86_64.desktop
 ```
+
+```txt
+[Desktop Entry]
+Type=Application
+Name=FreeCAD_0.22.0dev-Linux-x86_64
+Comment=FreeCAD_0.22.0dev-Linux-x86_64
+Categories=Graphics;Science;Engineering;
+Icon=FreeCAD_0.22.png
+Exec=FreeCAD_weekly-builds-38555-conda-Linux-x86_64-py311.AppImage
+Terminal=false
+Name[da_DK]=FreeCAD_0.22.0dev-Linux-x86_64
+StartupNotify=true
+GenericName[da_DK]=CAD-program
+```
+
+* Save and Exit nano
+  * To Save: [Ctrl]+[o]
+  * To Exit: [Ctrl]+[w]
 
 #### UltiMaker-Cura-55.8.0-linux-X64
 
-```txt
+```code
+nano ~/.local/share/applications/UltiMaker-Cura-5.8.0-linux-X64.desktop
+```
 
+```txt
+[Desktop Entry]
+Type=Application
+Name=UltiMaker-Cura-5.8.0-linux-X64
+Comment=UltiMaker-Cura-5.8.0-linux-X64
+Exec=UltiMaker-Cura-5.8.0-linux-X64.AppImage
+Name[da_DK]=UltiMaker-Cura-5.8.0-linux-X64
+Icon=Cura.png
+Categories=Categories=Graphics;2DGraphics;3DGraphics;RasterGraphics;GTK;
+Terminal=false
+StartupNotify=true
+GenericName[da_DK]=CAD-program
+```
+
+* Save and Exit nano
+  * To Save: [Ctrl]+[o]
+  * To Exit: [Ctrl]+[w]
+
+### How to run an AppImage:
+
+```code
+chmod a+x ~/.local/bin/*.AppImage
+```
+
+```code
+chmod a+x ~/.local/share/applications/*.desktop
 ```
