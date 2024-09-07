@@ -12,13 +12,15 @@ sudo apt update && sudo apt full-upgrade && sudo apt autoremove
 sudo usermod -a -G dialout $USER
 ```
 
-## Some apt Extra Programs
+## Some Extra Programs
+
+### APT
 
 ```code
 sudo apt install -y rpi-imager gparted putty filezilla fritzing dia handbrake brasero solaar 
 ```
 
-## Some snap Extra Programs
+### Snap
 
 ```code
 sudo killall snap-store && sudo snap refresh
@@ -28,7 +30,7 @@ sudo killall snap-store && sudo snap refresh
 sudo snap install -y pinta telegram-desktop
 ```
 
-## LaserWeb/CNCWeb:
+### LaserWeb/CNCWeb:
 
 ```txt
 https://github.com/LaserWeb/LaserWeb4/wiki
