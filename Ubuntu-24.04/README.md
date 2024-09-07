@@ -54,9 +54,11 @@ sudo killall snap-store && sudo snap refresh
 sudo snap install -y pinta telegram-desktop
 ```
 
-### LaserWeb/CNCWeb
+### LaserWeb/CNCWeb (linux free alternative to lightburn)
 
-* Link:
+* Lightburn:
+  * [Lightburn Linux support Ending](https://forum.lightburnsoftware.com/t/linux-support-ending/144618)
+* LaserWeb/CNCWeb (linux free alternative to lightburn)
   * [https://github.com/LaserWeb/LaserWeb4/wiki](https://github.com/LaserWeb/LaserWeb4/wiki)
   * [https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux](https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux)
   * [My Short guide](./LaserWeb-CNCWeb.md)
