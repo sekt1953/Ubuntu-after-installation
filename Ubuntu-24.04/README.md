@@ -28,10 +28,28 @@ sudo killall snap-store && sudo snap refresh
 sudo snap install -y pinta telegram-desktop
 ```
 
-## Wayland vs. X11
+## Change to X11 from Wayland
 
 ```code
+sudo nano /etc/gdm3/custom.conf
+```
 
+* Within this file, look for the line that says #WaylandEnable=false. You can uncomment this line and either set it to true or false, depending on whether you want Wayland enabled or not.  
+
+* Disable Wayland:
+
+```text
+WayLandEnable=false
+```
+
+* Save and Exit nano
+  * To Save: [Ctrl]+[o]
+  * To Exit: [Ctrl]+[w]
+
+* After you have made the desired changes, save this file and exit it. You will need to restart GDM3 or reboot your Ubuntu 22.04 desktop for the changes to take effect.
+
+```code
+sudo systemctl restart gdm3
 ```
 
 ## Samba setup
