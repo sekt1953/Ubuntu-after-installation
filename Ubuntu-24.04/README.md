@@ -28,6 +28,16 @@ sudo killall snap-store && sudo snap refresh
 sudo snap install -y pinta telegram-desktop
 ```
 
+## LaserWeb/CNCWeb:
+
+```txt
+https://github.com/LaserWeb/LaserWeb4/wiki
+```
+
+```txt
+https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux
+```
+
 ## Change to X11 from Wayland
 
 ```code
@@ -100,16 +110,6 @@ sudo smbpasswd -a <username>
 
 ```code
 sudo service smbd restart
-```
-
-## LaserWeb/CNCWeb:
-
-```txt
-https://github.com/LaserWeb/LaserWeb4/wiki
-```
-
-```txt
-https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux
 ```
 
 ## AppImage
