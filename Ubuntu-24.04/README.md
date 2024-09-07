@@ -30,7 +30,7 @@ sudo killall snap-store && sudo snap refresh
 sudo snap install -y pinta telegram-desktop
 ```
 
-### LaserWeb/CNCWeb:
+### LaserWeb/CNCWeb
 
 * Link:
   * [https://github.com/LaserWeb/LaserWeb4/wiki](https://github.com/LaserWeb/LaserWeb4/wiki)
@@ -52,18 +52,15 @@ npm -v
 ```code
 node -v 
 ```
-The following were the version numbers returned at the time of this writing:
 
-```code
-npm - 8.5.1
-node - 12.22.9
-```
+* The following were the version numbers returned at the time of this writing:
+  * npm - 8.5.1
+  * node - 12.22.9
 
 Then install Chromium by entering:
 
 ```code
 sudo apt install chromium
-
 ```
 
 Install git:
