@@ -29,9 +29,9 @@ Kilde:
 sudo apt-get install screenkey
 ```
 
+## Kdenlive
 
-
-##  Kdenlive
+For AppImages version see here: [./AppImages.md#kdenlive-ver-24080](./AppImages.md#kdenlive-ver-24080) 
 
 Kilde:
 
@@ -41,3 +41,4 @@ Kilde:
 ```code
 sudo apt install -y kdenlive
 ```
+
