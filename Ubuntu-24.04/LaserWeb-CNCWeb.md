@@ -121,7 +121,9 @@ You should be able to launch LaserWeb fro the terminal then by entering:
 
 You are ok to close the terminal if everything worked.
 
-~/.local/share/applications/LaserWeb4.desktop
+## Add a desktop file 
+
+sudo nano ~/.local/share/applications/LaserWeb4.desktop
 
 ```txt
 [Desktop Entry]
