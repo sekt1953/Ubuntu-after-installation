@@ -22,6 +22,11 @@ sudo apt install libfuse2t64
   * [FreeCAD 0.22.0dev](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
   * [UltiMaker-Cura](https://ultimaker.com/software/ultimaker-cura/#downloads)
   * [Kdenlive](https://kdenlive.org/en/download/)
+* Download *.appimages to:
+
+```txt
+ ~/.local/bin
+```
 
 ## AppImages Icons
 
