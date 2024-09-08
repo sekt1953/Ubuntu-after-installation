@@ -6,6 +6,12 @@
 sudo apt update && sudo apt full-upgrade && sudo apt autoremove
 ```
 
+## Add some Directory
+
+```code
+mkdir -p ~/.local/bin && mkdir -p ~/.local/share/icons
+```
+
 ## Change to X11 from Wayland
 
 ```code
@@ -63,12 +69,25 @@ sudo snap install pinta telegram-desktop
   * [https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux](https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux)
   * [My Short guide](./LaserWeb-CNCWeb.md)
 
+## AppImage
+
+* [./AppImages.md](./AppImages.md)
+  * [Where to place my AppImages files](./AppImages.md#where-to-place-my-appimages-files)
+  * [AppImages Fuse](./AppImages.md#appimages-fuse)
+  * [AppImages App](./AppImages.md#appimages-app)
+  * [AppImages Icons](./AppImages.md#appimages-icons)
+  * [AppImages Desktop Files](./AppImages.md#appimages-desktop-files)
+    * [FreeCAD 0.22.0dev-Linux-x86_64](./AppImages.md#freecad-0220dev-linux-x86_64)
+    * [UltiMaker-Cura-55.8.0-linux-X64](./AppImages.md#ultimaker-cura-5580-linux-x64)
+    * [Kdenlive](./AppImages.md#kdenlive-ver-24080)
+  * [How to make AppImage run as a Program](./AppImages.md#how-to-make-appimage-run-as-a-program)
+
 ## Video Record, Screencast your keys and Edit
 
 * [./VideoRecEdit.md](./VideoRecEdit.md)
   * [OBS-Studio](./VideoRecEdit.md#obs-studio)
   * [Screencast your keys](./VideoRecEdit.md#screencast-your-keys)
-  * [Kdenlive](./VideoRecEdit.md#kdenlive)
+  * [Kdenlive](./VideoRecEdit.md#kdenlive) Use Appimages version
 
 ## Samba setup
 
@@ -80,14 +99,3 @@ sudo snap install pinta telegram-desktop
   * [Set Samba password](./SambaSetup.md#set-samba-password)
   * [Restart Samba](./SambaSetup.md#restart-samba)
 
-## AppImage
-
-* [./AppImages.md](./AppImages.md)
-  * [Where to place my AppImages files](./AppImages.md#where-to-place-my-appimages-files)
-  * [AppImages Fuse](./AppImages.md#appimages-fuse)
-  * [AppImages App](./AppImages.md#appimages-app)
-  * [AppImages Icons](./AppImages.md#appimages-icons)
-  * [AppImages Desktop Files](./AppImages.md#appimages-desktop-files)
-    * [FreeCAD 0.22.0dev-Linux-x86_64](./AppImages.md#freecad-0220dev-linux-x86_64)
-    * [UltiMaker-Cura-55.8.0-linux-X64](./AppImages.md#ultimaker-cura-5580-linux-x64)
-  * [How to make AppImage run as a Program](./AppImages.md#how-to-make-appimage-run-as-a-program)

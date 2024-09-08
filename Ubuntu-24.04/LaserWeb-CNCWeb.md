@@ -15,16 +15,12 @@ sudo apt-get update && sudo apt install npm
 You can verify that npm and node are installed then by entering the following:
 
 ```code
-npm -v 
-```
-
-```code
-node -v 
+npm -v && node -v 
 ```
 
 * The following were the version numbers returned at the time of this writing:
-  * npm - 8.5.1
-  * node - 12.22.9
+  * 9.2.0
+  * v18.19.1
 
 Then install Chromium by entering:
 
