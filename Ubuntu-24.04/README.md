@@ -51,7 +51,7 @@ sudo killall snap-store && sudo snap refresh
 ```
 
 ```code
-sudo snap install -y pinta telegram-desktop
+sudo snap install pinta telegram-desktop
 ```
 
 ### LaserWeb/CNCWeb (linux free alternative to lightburn)
