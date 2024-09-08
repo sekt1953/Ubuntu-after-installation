@@ -120,6 +120,10 @@ You are ok to close the terminal if everything worked.
 ## Add a desktop file
 
 ```code
+mkdir -p ~/.local/bin && mkdir -p ~/.local/share/icons
+```
+
+```code
 sudo nano ~/.local/share/applications/LaserWeb4.desktop
 ```
 

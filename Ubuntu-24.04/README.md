@@ -60,15 +60,6 @@ sudo killall snap-store && sudo snap refresh
 sudo snap install pinta telegram-desktop
 ```
 
-### LaserWeb/CNCWeb (linux free alternative to lightburn)
-
-* Lightburn:
-  * [Lightburn Linux support Ending](https://forum.lightburnsoftware.com/t/linux-support-ending/144618)
-* LaserWeb/CNCWeb (linux free alternative to lightburn)
-  * [https://github.com/LaserWeb/LaserWeb4/wiki](https://github.com/LaserWeb/LaserWeb4/wiki)
-  * [https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux](https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux)
-  * [My Short guide](./LaserWeb-CNCWeb.md)
-
 ## AppImage
 
 * [./AppImages.md](./AppImages.md)
@@ -81,6 +72,15 @@ sudo snap install pinta telegram-desktop
     * [UltiMaker-Cura-55.8.0-linux-X64](./AppImages.md#ultimaker-cura-5580-linux-x64)
     * [Kdenlive](./AppImages.md#kdenlive-ver-24080)
   * [How to make AppImage run as a Program](./AppImages.md#how-to-make-appimage-run-as-a-program)
+
+### LaserWeb/CNCWeb (linux free alternative to lightburn)
+
+* Lightburn:
+  * [Lightburn Linux support Ending](https://forum.lightburnsoftware.com/t/linux-support-ending/144618)
+* LaserWeb/CNCWeb (linux free alternative to lightburn)
+  * [https://github.com/LaserWeb/LaserWeb4/wiki](https://github.com/LaserWeb/LaserWeb4/wiki)
+  * [https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux](https://github.com/LaserWeb/LaserWeb4/wiki/1.3-Installation-on-Linux)
+  * [My Short guide](./LaserWeb-CNCWeb.md)
 
 ## Video Record, Screencast your keys and Edit
 
