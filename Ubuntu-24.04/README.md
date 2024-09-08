@@ -12,6 +12,20 @@ sudo apt update && sudo apt full-upgrade && sudo apt autoremove
 mkdir -p ~/.local/bin && mkdir -p ~/.local/share/icons
 ```
 
+## Firefox settings
+
+* Generelt
+  * Filhentning
+    * Enable: Spørg mig altid, hvor filer skal gemmes
+* Hjem
+  * Startside og nye vinduer
+    * Tilpassede URL'er..: https://www.google.dk/
+    * Click: Anvend nuværende side
+
+|Generelt|Hjem|
+|:---:|:---:|
+|![Generelt](./Images/Generelt-Filer_og_programmer.png)|![Hjem](./Images/Hejm-Hjem_Nye_vinduer_og_faneblade.png)|
+
 ## Change to X11 from Wayland
 
 ```code
@@ -47,7 +61,7 @@ sudo usermod -a -G dialout $USER
 ### APT
 
 ```code
-sudo apt install -y rpi-imager gparted putty filezilla fritzing dia handbrake brasero solaar 
+sudo apt install -y rpi-imager geany gparted putty filezilla fritzing dia handbrake brasero solaar 
 ```
 
 ### Snap
