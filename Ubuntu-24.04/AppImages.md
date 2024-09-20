@@ -30,9 +30,9 @@ sudo apt install libfuse2t64
 
 ## AppImages Icons
 
-|FreeCAD 0.22.0dev|UltiMaker-Cura|LaserWeb4|Kdenlive|PrusaSlicer|
+|FreeCAD 0.22.0dev|PrusaSlicer|UltiMaker-Cura|Kdenlive|LaserWeb4|
 |:---:|:---:|:---:|:---:|:---:|
-|![FreeCAD 0.22.0dev](./Images/FreeCAD_0.22.png)|![Cura](./Images/Cura.png)|![LaserWeb4](./Images/LaserWeb4.png)|![kdenlive](./Images/kdenlive_24.png)|![PrusaSlicer](./Images/PrusaSlicer_128px.png)|
+|![FreeCAD 0.22.0dev](./Images/FreeCAD_0.22.png)|![PrusaSlicer](./Images/PrusaSlicer_128px.png)|![Cura](./Images/Cura.png)|![kdenlive](./Images/kdenlive_24.png)|![LaserWeb4](./Images/LaserWeb4.png)|
 
 Download *.png to:
 
@@ -41,28 +41,6 @@ Download *.png to:
 ```
 
 ## AppImages Desktop Files:
-
-### PrusaSlicer 2.8.1
-
-```code
-nano ~/.local/share/applications/Prusa.desktop
-```
-
-```txt
-[Desktop Entry]
-Name=PrusaSlicer-2.8.1
-Name[da_DK]=PrusaSlicer-2.8.1
-Exec=PrusaSlicer-2.8.1+linux-x64-newer-distros-GTK3-202409181416.AppImage
-Terminal=false
-Type=Application
-Icon=PrusaSlicer_128px.png
-MimeType=x-scheme-handler/prusaslicer;
-StartupNotify=false
-```
-
-* Save and Exit nano
-  * To Save: [Ctrl]+[o]
-  * To Exit: [Ctrl]+[w]
 
 ### FreeCAD 0.22.0dev-Linux-x86_64
 
@@ -87,6 +65,29 @@ GenericName[da_DK]=CAD-program
 * Save and Exit nano
   * To Save: [Ctrl]+[o]
   * To Exit: [Ctrl]+[w]
+
+### PrusaSlicer 2.8.1
+
+```code
+nano ~/.local/share/applications/Prusa.desktop
+```
+
+```txt
+[Desktop Entry]
+Name=PrusaSlicer-2.8.1
+Name[da_DK]=PrusaSlicer-2.8.1
+Exec=PrusaSlicer-2.8.1+linux-x64-newer-distros-GTK3-202409181416.AppImage
+Terminal=false
+Type=Application
+Icon=PrusaSlicer_128px.png
+MimeType=x-scheme-handler/prusaslicer;
+StartupNotify=false
+```
+
+* Save and Exit nano
+  * To Save: [Ctrl]+[o]
+  * To Exit: [Ctrl]+[w]
+
 
 ### UltiMaker-Cura-55.8.0-linux-X64
 
