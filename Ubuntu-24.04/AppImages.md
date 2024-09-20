@@ -50,13 +50,14 @@ nano ~/.local/share/applications/Prusa.desktop
 
 ```txt
 [Desktop Entry]
-Name=PrusaSlicer URL Protocol
-Exec="/home/sekt/.local/bin/PrusaSlicer-2.8.0+linux-x64-GTK3-202406270929.AppImage" --single-instance %u
+Name=PrusaSlicer-2.8.1
+Name[da_DK]=PrusaSlicer-2.8.1
+Exec=PrusaSlicer-2.8.1+linux-x64-newer-distros-GTK3-202409181416.AppImage
 Terminal=false
 Type=Application
+Icon=PrusaSlicer_128px.png
 MimeType=x-scheme-handler/prusaslicer;
 StartupNotify=false
-NoDisplay=true
 ```
 
 * Save and Exit nano
