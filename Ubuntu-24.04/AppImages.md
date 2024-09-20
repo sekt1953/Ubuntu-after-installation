@@ -30,9 +30,9 @@ sudo apt install libfuse2t64
 
 ## AppImages Icons
 
-|FreeCAD 0.22.0dev|UltiMaker-Cura|LaserWeb4|Kdenlive|
-|:---:|:---:|:---:|:---:|
-|![FreeCAD 0.22.0dev](./Images/FreeCAD_0.22.png)|![Cura](./Images/Cura.png)|![LaserWeb4](./Images/LaserWeb4.png)|![kdenlive](./Images/kdenlive_24.png)|
+|FreeCAD 0.22.0dev|UltiMaker-Cura|LaserWeb4|Kdenlive|PrusaSlicer|
+|:---:|:---:|:---:|:---:|:---:|
+|![FreeCAD 0.22.0dev](./Images/FreeCAD_0.22.png)|![Cura](./Images/Cura.png)|![LaserWeb4](./Images/LaserWeb4.png)|![kdenlive](./Images/kdenlive_24.png)|![PrusaSlicer](./Images/PrusaSlicer_128px.png)|
 
 Download *.png to:
 
