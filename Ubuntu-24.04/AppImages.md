@@ -42,6 +42,27 @@ Download *.png to:
 
 ## AppImages Desktop Files:
 
+### PrusaSlicer 2.8.1
+
+```code
+nano ~/.local/share/applications/Prusa.desktop
+```
+
+```txt
+[Desktop Entry]
+Name=PrusaSlicer URL Protocol
+Exec="/home/sekt/.local/bin/PrusaSlicer-2.8.0+linux-x64-GTK3-202406270929.AppImage" --single-instance %u
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/prusaslicer;
+StartupNotify=false
+NoDisplay=true
+```
+
+* Save and Exit nano
+  * To Save: [Ctrl]+[o]
+  * To Exit: [Ctrl]+[w]
+
 ### FreeCAD 0.22.0dev-Linux-x86_64
 
 ```code
