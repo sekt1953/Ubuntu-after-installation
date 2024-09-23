@@ -66,7 +66,7 @@ GenericName[da_DK]=CAD-program
   * To Save: [Ctrl]+[o]
   * To Exit: [Ctrl]+[w]
 
-### FreeCAD 0.22.0dev-Linux-x86_64
+### FreeCAD_1.0.0RC1-conda-Linux-x86_64
 
 ```code
 nano ~/.local/share/applications/FreeCAD_1.0.0RC1-conda-Linux-x86_64.desktop
