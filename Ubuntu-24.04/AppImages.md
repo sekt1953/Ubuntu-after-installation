@@ -19,7 +19,7 @@ sudo apt install libfuse2t64
 ## AppImages App
 
 * Download link:
-  * [FreeCAD 0.22.0dev](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  * [FreeCAD 1.0.0 Release Candidate](https://github.com/FreeCAD/FreeCAD/releases)
   * [UltiMaker-Cura](https://ultimaker.com/software/ultimaker-cura/#downloads)
   * [Kdenlive](https://kdenlive.org/en/download/)
 * Download *.appimages to:
@@ -30,9 +30,9 @@ sudo apt install libfuse2t64
 
 ## AppImages Icons
 
-|FreeCAD 0.22.0dev|PrusaSlicer|UltiMaker-Cura|Kdenlive|LaserWeb4|
+|FreeCAD 1.0.0|PrusaSlicer|UltiMaker-Cura|Kdenlive|LaserWeb4|
 |:---:|:---:|:---:|:---:|:---:|
-|![FreeCAD 0.22.0dev](./Images/FreeCAD_0.22.png)|![PrusaSlicer](./Images/PrusaSlicer_128px.png)|![Cura](./Images/Cura.png)|![kdenlive](./Images/kdenlive_24.png)|![LaserWeb4](./Images/LaserWeb4.png)|
+|![FreeCAD 1.0.0](./Images/FreeCAD_0.22.png)|![PrusaSlicer](./Images/PrusaSlicer_128px.png)|![Cura](./Images/Cura.png)|![kdenlive](./Images/kdenlive_24.png)|![LaserWeb4](./Images/LaserWeb4.png)|
 
 Download *.png to:
 
@@ -41,30 +41,6 @@ Download *.png to:
 ```
 
 ## AppImages Desktop Files:
-
-### FreeCAD 0.22.0dev-Linux-x86_64
-
-```code
-nano ~/.local/share/applications/FreeCAD_0.22.0dev-Linux-x86_64.desktop
-```
-
-```txt
-[Desktop Entry]
-Type=Application
-Comment=FreeCAD_0.22.0dev-Linux-x86_64
-Name=FreeCAD_0.22.0dev-Linux-x86_64
-Name[da_DK]=FreeCAD_0.22.0dev-Linux-x86_64
-Categories=Graphics;Science;Engineering;
-Icon=FreeCAD_0.22.png
-Exec=FreeCAD_weekly-builds-38794-conda-Linux-x86_64-py311.AppImage
-Terminal=false
-StartupNotify=true
-GenericName[da_DK]=CAD-program
-```
-
-* Save and Exit nano
-  * To Save: [Ctrl]+[o]
-  * To Exit: [Ctrl]+[w]
 
 ### FreeCAD_1.0.0RC2-conda-Linux-x86_64-py311.AppImage
 
