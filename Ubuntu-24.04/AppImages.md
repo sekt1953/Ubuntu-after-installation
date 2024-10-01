@@ -66,21 +66,21 @@ GenericName[da_DK]=CAD-program
   * To Save: [Ctrl]+[o]
   * To Exit: [Ctrl]+[w]
 
-### FreeCAD_1.0.0RC1-conda-Linux-x86_64
+### FreeCAD_1.0.0RC2-conda-Linux-x86_64-py311.AppImage
 
 ```code
-nano ~/.local/share/applications/FreeCAD_1.0.0RC1-conda-Linux-x86_64.desktop
+nano ~/.local/share/applications/FreeCAD_1.0.0RC2.desktop
 ```
 
 ```txt
 [Desktop Entry]
 Type=Application
-Comment=FreeCAD_1.0.0RC1-conda-Linux-x86_64
-Name=FreeCAD_1.0.0RC1-conda-Linux-x86_64
-Name[da_DK]=FreeCAD_1.0.0RC1-conda-Linux-x86_64
+Comment=FreeCAD_1.0.0RC2
+Name=FreeCAD_1.0.0RC2
+Name[da_DK]=FreeCAD_1.0.0RC2
 Categories=Graphics;Science;Engineering;
 Icon=FreeCAD_0.22.png
-Exec=FreeCAD_1.0.0RC1-conda-Linux-x86_64-py311.AppImage
+Exec=FreeCAD_1.0.0RC2-conda-Linux-x86_64-py311.AppImage
 Terminal=false
 Name[da_DK]=FreeCAD_1.0.0RC1-conda-Linux-x86_64
 StartupNotify=true
