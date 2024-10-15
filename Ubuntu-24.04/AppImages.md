@@ -20,6 +20,7 @@ sudo apt install libfuse2t64
 
 * Download link:
   * [FreeCAD 1.0.0 Release Candidate](https://github.com/FreeCAD/FreeCAD/releases)
+  * [Prusa Slicer](https://www.prusa3d.com/page/prusaslicer_424/)
   * [UltiMaker-Cura](https://ultimaker.com/software/ultimaker-cura/#downloads)
   * [Kdenlive](https://kdenlive.org/en/download/)
 * Download *.appimages to:
