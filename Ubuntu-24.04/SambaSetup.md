@@ -1,6 +1,6 @@
 # Samba Setup
 
-## Install Sanba
+## Install Samba
 
 ```code
 sudo apt update && sudo apt install -y samba
