@@ -43,23 +43,22 @@ Download *.png to:
 
 ## AppImages Desktop Files:
 
-### FreeCAD_1.0.0RC2-conda-Linux-x86_64-py311.AppImage
+### FreeCAD_1.0.0-conda-Linux-x86_64-py311.AppImage
 
 ```code
-nano ~/.local/share/applications/FreeCAD_1.0.0RC2.desktop
+nano ~/.local/share/applications/FreeCAD_1.0.0.desktop
 ```
 
 ```txt
 [Desktop Entry]
 Type=Application
-Comment=FreeCAD_1.0.0RC2
-Name=FreeCAD_1.0.0RC2
-Name[da_DK]=FreeCAD_1.0.0RC2
+Comment=FreeCAD_1.0.0
+Name=FreeCAD_1.0.0
+Name[da_DK]=FreeCAD_1.0.0
 Categories=Graphics;Science;Engineering;
 Icon=FreeCAD_0.22.png
-Exec=FreeCAD_1.0.0RC2-conda-Linux-x86_64-py311.AppImage
+Exec=FreeCAD_1.0.0-conda-Linux-x86_64-py311.AppImage
 Terminal=false
-Name[da_DK]=FreeCAD_1.0.0RC1-conda-Linux-x86_64
 StartupNotify=true
 GenericName[da_DK]=CAD-program
 ```
@@ -79,6 +78,7 @@ nano ~/.local/share/applications/Prusa.desktop
 Name=PrusaSlicer-2.8.1
 Name[da_DK]=PrusaSlicer-2.8.1
 Exec=PrusaSlicer-2.8.1+linux-x64-newer-distros-GTK3-202409181416.AppImage
+# Exec=PrusaSlicer-2.8.1+linux-x64-older-distros-GTK3-202409181354.AppImage
 Terminal=false
 Type=Application
 Icon=PrusaSlicer_128px.png

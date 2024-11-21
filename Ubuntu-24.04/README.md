@@ -83,6 +83,7 @@ sudo snap install pinta telegram-desktop
   * [AppImages Icons](./AppImages.md#appimages-icons)
   * [AppImages Desktop Files](./AppImages.md#appimages-desktop-files)
     * [FreeCAD 0.22.0dev-Linux-x86_64](./AppImages.md#freecad-0220dev-linux-x86_64)
+    
     * [UltiMaker-Cura-55.8.0-linux-X64](./AppImages.md#ultimaker-cura-5580-linux-x64)
     * [Kdenlive](./AppImages.md#kdenlive-ver-24080)
   * [How to make AppImage run as a Program](./AppImages.md#how-to-make-appimage-run-as-a-program)
