@@ -74,6 +74,29 @@ sudo killall snap-store && sudo snap refresh
 sudo snap install pinta telegram-desktop
 ```
 
+## [Install Flatpak](https://flathub.org/setup/Ubuntu)
+
+* To install Flatpak on Ubuntu 18.10 (Cosmic Cuttlefish) or later, open the Terminal app and run:
+
+```code
+sudo apt install flatpak
+```
+
+## [PrusaSlicer 2.9.0](https://flathub.org/apps/com.prusa3d.PrusaSlicer)
+
+* Manual Install
+  * Make sure you follow the [setup guide for your Linux distribution](https://flathub.org/setup) before installing
+  
+```code
+flatpak install flathub com.prusa3d.PrusaSlicer
+```
+
+* Run
+
+```code
+flatpak run com.prusa3d.PrusaSlicer
+```
+
 ## AppImage
 
 * [./AppImages.md](./AppImages.md)
