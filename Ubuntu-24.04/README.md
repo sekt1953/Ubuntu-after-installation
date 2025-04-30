@@ -3,7 +3,7 @@
 ## Update
 
 ```code
-sudo apt update && sudo apt full-upgrade && sudo apt autoremove
+sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 ```
 
 ## Add some Directory
