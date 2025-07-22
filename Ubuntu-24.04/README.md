@@ -82,32 +82,6 @@ sudo snap install pinta telegram-desktop
 sudo apt install flatpak
 ```
 
-## Do Not Suspend laptop when lid is closed in Ubuntu 24.04
-
-Kilde: [https://askubuntu.com/](https://askubuntu.com/questions/1513028/suspend-laptop-when-lid-is-closed-in-ubuntu-24-04)
-
-ændringer en linie i /etc/systemd/logind.conf
-
-fra: 
-
-```code
-#HandleLidSwitch=suspend
-```
-
-til:
-
-```code
-HandleLidSwitch=ignore
-```
-
-After making changes, restart the login service:
-
-```code
-sudo systemctl restart systemd-logind
-```
-
-For mig var det nødvendigt at genstarte min PC !
-
 ## [PrusaSlicer 2.9.0](https://flathub.org/apps/com.prusa3d.PrusaSlicer)
 
 * Manual Install
@@ -162,4 +136,30 @@ flatpak run com.prusa3d.PrusaSlicer
   * [Edit /etc/samba/smb.conf](./SambaSetup.md#edit-etcsambasmbconf)
   * [Set Samba password](./SambaSetup.md#set-samba-password)
   * [Restart Samba](./SambaSetup.md#restart-samba)
+
+## Do Not Suspend laptop when lid is closed in Ubuntu 24.04
+
+Kilde: [https://askubuntu.com/](https://askubuntu.com/questions/1513028/suspend-laptop-when-lid-is-closed-in-ubuntu-24-04)
+
+ændringer en linie i /etc/systemd/logind.conf
+
+fra: 
+
+```code
+#HandleLidSwitch=suspend
+```
+
+til:
+
+```code
+HandleLidSwitch=ignore
+```
+
+After making changes, restart the login service:
+
+```code
+sudo systemctl restart systemd-logind
+```
+
+For mig var det nødvendigt at genstarte min PC !
 
