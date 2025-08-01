@@ -61,7 +61,7 @@ sudo usermod -a -G dialout $USER
 ### APT
 
 ```code
-sudo apt install -y rpi-imager geany gparted putty filezilla fritzing dia handbrake brasero solaar 
+sudo apt install -y rpi-imager geany gparted putty filezilla fritzing dia handbrake brasero solaar curl
 ```
 
 ### Snap
