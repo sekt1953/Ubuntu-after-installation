@@ -56,6 +56,10 @@ sudo systemctl restart gdm3
 sudo usermod -a -G dialout $USER
 ```
 
+## [Sharing data on Ubuntu 24.04](./SharingDataOnUbuntu2404.md)
+
+Click here: [how to share data via a group permissions](./SharingDataOnUbuntu2404.md)
+
 ## Some nice to have Programs
 
 ### APT
